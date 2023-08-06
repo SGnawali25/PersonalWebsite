@@ -1,9 +1,29 @@
-.introduction{
+.intro-container{
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12em 16em;
+    height: 100vh;
+    background-color: blue;
+    overflow: hidden;
+    width: 100%;
+}
+
+.introduction{
+    text-align: center;
+    color: white;
+    animation: slide 10s linear infinite;
 }
 
 .Resume{
+    text-align: center;
     margin: 12em 16em;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
