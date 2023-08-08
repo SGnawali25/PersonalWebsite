@@ -4,7 +4,7 @@ const Body = () => {
   return (
       <div className='body'>
           <div className='image-container'>
-              <img className='image' src='../public/images/Sandesh.jfif' alt='Me' />
+              <img className='image' src='../public/images/sandesh.jpg' alt='Me' />
               
           </div>
           <p className='introduction'><h1>Hi, I am Sandesh Gnawali.</h1></p>
