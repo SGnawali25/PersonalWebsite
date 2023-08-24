@@ -3,6 +3,7 @@
     height: 3em;
     position: relative;
     padding-top: 5px;
+    margin-top: 1em;
 }
 
 
@@ -17,6 +18,7 @@
     border-radius: 5px;
     height: 2.5em;
     width: auto;
+    text-decoration: none;
 }
 
 .resume-button:hover, .home:hover, .contact:hover, .about-me:hover {
@@ -61,6 +63,62 @@
     text-align: center;
     margin: 0% 5%;
     margin-bottom: 5em;
+}
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+.linkedin, .github, .gmail{
+    margin: 2em;
+}
+
+.content-linkedin{
+    margin-right: 3em;
+    font-size: x-large;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.content-gmail{
+    margin-left: 24%;
+    font-size:x-large;
+    text-decoration: none;
+    color: black;
+
+}
+
+.content-github{
+    margin-left: 1em;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+
+.content-linkedin:hover, .content-gmail:hover, .content-github:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.linkedin{
+    margin-left: 8em;
+}
+
+.gmail{
+    margin-left: 3em;
+}
+
+.github{
+    margin-left: 3em;
+
+}
+
+.contacts-logo{
+    height: 30%;
+    width: 10em;
 }
 
 
