@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Body = () => {
+const Home = () => {
   return (
       <div className='body'>
           <div className='image-container'>
@@ -13,4 +13,4 @@ const Body = () => {
   )
 }
 
-export default Body
+export default Home
