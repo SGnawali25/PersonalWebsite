@@ -21,6 +21,7 @@ const Home = () => {
         <div className="skills-samepage">
           <Skills/>
         </div>
+        <br/>
       
       </Fragment>
   )
