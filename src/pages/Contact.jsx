@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react'
+import MetaData from '../components/MetaData'
 
 const Contact = () => {
   return (
     <Fragment>
+      <MetaData title = {"Contact"} />
       <div className="contact-page">
+        <h1>Contact</h1>
         <div className="linkedin">
           <img className='contacts-logo' src='/images/linkedin.png' alt='Sandesh Gnawali' />
           <br/>
