@@ -193,7 +193,7 @@
     font-size: 28px;
     margin-bottom: 6px;
     color: black;
-    background-color: white;
+    background-color:  rgb(186, 179, 179);
     width: 4.5em;
     border-radius: 10px 0px;
     padding: 2%;
@@ -207,7 +207,7 @@
     font-size: 28px;
     margin-bottom: 6px;
     color: black;
-    background-color: white;
+    background-color:  rgb(186, 179, 179);
     border-radius: 10px 0px;
     padding: 2%;
     width: 20em;
@@ -228,7 +228,7 @@
   .projects, .experiences, .leaderships{
     display: flex;
     margin-left: 3em;
-    color: white;
+    color: rgb(96, 93, 93);
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
@@ -246,7 +246,7 @@
 
 .project, .experience, .leadership {
 display: flexbox;
-background-color: white;
+background-color: rgb(186, 179, 179);
 width : 25em;
 color: black;
 padding: 1em;
