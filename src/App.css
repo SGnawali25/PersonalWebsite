@@ -54,7 +54,7 @@
 }
 
 .image{
-    width: 15%;
+    width: 20%;
     height: 13em;
     border-radius: 0px 50px;
     border: 1px solid   black;
@@ -77,6 +77,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 2em;
+    margin-bottom: 15em;
 }
 .linkedin, .github, .gmail{
     margin: 2em;
@@ -141,7 +142,7 @@
 
 
 .contact-samepage{
-    margin-top: 33em;
+    margin-top: 15em;
     color: white;
 }
 
@@ -150,42 +151,193 @@
     color: white;
 }
 
-
-
-.section-title, ul{
-    color: white;
-    text-align: center;
-}
-
-.skills-set{
-    display: flex;
-
-
-}
-
-ul{
-    list-style-type: none;
-    margin-top: 5em;
-    margin-left: 50em;
-    display: block;
-}
-
-li{
-    width: 10em;
-    height: 2em;
-    background-color: white;
-    margin: 0.5em;
-    color: black;
-    text-align: center;
-    padding-top: 0.7em;
-    font-size: larger;
-    font-family: inherit;
-    border-radius: 0 45%;
-    box-shadow: black;
-
-}
-
 .skills-samepage{
-    margin-top: 20em;
-    margin-bottom: 30em;
+    margin-top: 15em
 }
+
+
+
+/* Centered content within .section.skills */
+.section.skills {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center; /* Center the text horizontally within .centered-content */
+  }
+  
+  /* Style the section title */
+  .section-title {
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom: 10px;
+    color: white;
+    align-items: center;
+  }
+  
+  /* Style the skills list */
+  .skills-sets {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35vh;
+  }
+  
+  /* Style individual skills list items */
+  .skills-list-item {
+    margin: 0.5em;
+    display: flexbox;
+    font-size: 28px;
+    margin-bottom: 6px;
+    color: black;
+    background-color: white;
+    width: 4.5em;
+    border-radius: 10px 0px;
+    padding: 2%;
+  }
+
+
+
+  .courses-list-item {
+    margin: 0.5em;
+    display: flexbox;
+    font-size: 28px;
+    margin-bottom: 6px;
+    color: black;
+    background-color: white;
+    border-radius: 10px 0px;
+    padding: 2%;
+    width: 20em;
+    height: 2.5em;
+    justify-content: center;
+  }
+  
+  /* Center .centered-content both horizontally and vertically */
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100%; /* Make sure the section covers the full height */
+  }
+
+
+  .projects, .experiences, .leaderships{
+    display: flex;
+    margin-left: 3em;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 1em;
+    color: white;
+  }
+
+.project-title{
+    font-size: 30px
+}
+
+.project, .experience, .leadership {
+display: flexbox;
+background-color: white;
+width : 25em;
+color: black;
+padding: 1em;
+font-size: large;
+border-radius: 5px;
+margin: 2em;
+text-align: center;
+}
+
+
+
+.projects-samepage, .experiences-samepage, .leaderships-samepage{
+margin-top: 20em;
+margin-bottom: 10em;
+}
+
+.min-header-content{
+    display: none;
+}
+
+
+
+@media (max-width: 870px) {
+    .header-content{
+        display: none;
+    }
+
+    .min-header-content{
+        color: white;
+        font-size: large;
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin-right: 1%;
+        width: 2em;
+        height: 2em;
+    }
+
+    .image{
+        width: 40%;
+    }
+
+    
+    
+}
+
+
+.dropdown{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    color: white;
+}
+
+.dropdown::before,
+.dropdown::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 30px;
+    background-color: #11ddc5; /* Color of the bars */
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.dropdown::before{
+    top: 0;
+}
+
+.dropdown::after{
+    top: 10px
+}
+
+
+
+
+.skills-courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+
+section{
+    margin-left: 10em;
+    margin-right: 8em;
+}
+
+
+

@@ -10,14 +10,32 @@ const Header = () => {
                   <h3 className='home'>Home</h3>
               </Link>
 
+              <Link to='/skills'>
+                <h3 className='about-me'>Skills & Courses</h3>
+              </Link>
+
+              <Link to='/leadership'>
+                  <h3 className='contact'>Leadership</h3>
+              </Link>
+
+              <Link to='/experience'>
+                  <h3 className='contact'>Experience</h3>
+              </Link>
+
+              <Link to='/projects'>
+                  <h3 className='contact'>Technical Projects</h3>
+              </Link>
 
               <Link to='/contact'>
                   <h3 className='contact'>Contact</h3>
               </Link>
 
 
-              <Link to='/skills'><h3 className='about-me'>Skills</h3></Link>
 
+          </div>
+
+          <div className="min-header-content">
+            <Link to="/header"><h3 className='dropdown'></h3></Link>
           </div>
       </div>
   )
