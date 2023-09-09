@@ -4,6 +4,7 @@
     position: relative;
     padding-top: 5px;
     margin-top: 1em;
+    width: 99%;
     border-bottom: solid black 2px;;
 }
 .header::before{
@@ -183,7 +184,7 @@
     margin: 1em;
     flex-wrap: wrap;
     justify-content: center;
-    width: 35vh;
+    width: 45vh;
   }
   
   /* Style individual skills list items */
@@ -194,9 +195,10 @@
     margin-bottom: 6px;
     color: black;
     background-color:  rgb(186, 179, 179);
-    width: 4.5em;
+    width: auto;
     border-radius: 10px 0px;
     padding: 2%;
+    height: auto;
   }
 
 
@@ -208,10 +210,10 @@
     margin-bottom: 6px;
     color: black;
     background-color:  rgb(186, 179, 179);
-    border-radius: 10px 0px;
-    padding: 2%;
-    width: 20em;
-    height: 2.5em;
+    border-radius: 0px 20px;
+    padding: 3%;
+    width: auto;
+    height: auto;
     justify-content: center;
   }
   
@@ -227,7 +229,6 @@
 
   .projects, .experiences, .leaderships{
     display: flex;
-    margin-left: 3em;
     color: rgb(96, 93, 93);
     flex-wrap: wrap;
     justify-content: center;
@@ -340,4 +341,19 @@ section{
 }
 
 
+.project__stack{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project__stack-item{
+    margin: 0.5em;
+    font-weight: 500;
+    font-size: 1rem;
+}
+ul{
+    padding: 0;
+}
 

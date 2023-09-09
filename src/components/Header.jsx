@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 const Header = () => {
+
   return (
       <div className='header'>
           <a href='https://drive.google.com/file/d/1G4ttWItOaE5VLwC25WpqZEKbGesuTWlf/view?usp=drive_link' className='resume-link' target='_blank'><h2>Resume</h2></a>
@@ -23,7 +24,7 @@ const Header = () => {
               </Link>
 
               <Link to='/projects'>
-                  <h3 className='contact'>Technical Projects</h3>
+                  <h3 className='contact'>Projects</h3>
               </Link>
 
               <Link to='/contact'>

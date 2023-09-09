@@ -1,9 +1,11 @@
 import React, { Fragment } from 'react'
+import { VscGithub } from "react-icons/vsc";
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
     <Fragment>
-        <h2>Projects</h2>
+        <h2>Technical Projects</h2>
         <div className="projects">
 
             <div className="project">
@@ -12,6 +14,18 @@ const Projects = () => {
                     their account and buy the products online.
                 </p>
 
+                <ul className="project__stack">
+                    <li className="project__stack-item">Express.js</li>
+                    <li className="project__stack-item">Node.js</li>
+                    <li className="project__stack-item">React.js</li>
+                    <li className="project__stack-item">MongoDB</li>
+                </ul>
+
+                <span className="link-to-github-url">
+                    <a href ='https://www.github.com/sgnawali25/smartshopper' target='_blank'><VscGithub/></a>
+                </span>
+
+
             </div>
 
             <div className="project">
@@ -19,6 +33,15 @@ const Projects = () => {
                 <p>Explorezy is an web app developed using React, HTML, CSS, JavaScript and Supabase as a database storage.
                     Explorezy helps people to find the local tourist destination and promote local tourism for the people in new places.
                 </p>
+
+                <ul className="project__stack">
+                    <li className="project__stack-item">React.js</li>
+                    <li className="project__stack-item">Node.js</li>
+                    <li className="project__stack-item">Supabase</li>
+                </ul>
+                <span className="link-to-github-url">
+                    <a href ='https://www.github.com/sgnawali25/explorezy' target='_blank'><VscGithub/></a>
+                </span>
 
             </div>
 
@@ -29,6 +52,14 @@ const Projects = () => {
                     based on article length, article published year, article writer, etc.
                 </p>
 
+                <ul className="project__stack">
+                    <li className="project__stack-item">Python</li>
+                </ul>
+
+                <span className="link-to-github-url">
+                    <a href ='https://www.github.com/sgnawali25/search_engine' target='_blank'><VscGithub/></a>
+                </span>
+
             </div>
 
             <div className="project">
@@ -36,6 +67,15 @@ const Projects = () => {
                 <p>Blackjack is a text based version of BlackJack game that is written python programming language. Multiple player
                     can play this game at a time.
                 </p>
+
+                <ul className="project__stack">
+                    <li className="project__stack-item">Python</li>
+                </ul>
+
+                <span className="link-to-github-url">
+                    <a href ='https://www.github.com/sgnawali25/blackjack' target='_blank'><VscGithub/></a>
+                </span>
+                
 
             </div>
 
@@ -45,6 +85,14 @@ const Projects = () => {
                     When the user ask for the hint it provides possible words to the user based on their correct letter.
 
                 </p>
+
+                <ul className="project__stack">
+                    <li className="project__stack-item">Python</li>
+                </ul>
+
+                <span className="link-to-github-url">
+                    <a href ='https://www.github.com/sgnawali25/hangman' target='_blank'><VscGithub/></a>
+                </span>
 
             </div>
         </div>
