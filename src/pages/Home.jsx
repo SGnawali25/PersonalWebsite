@@ -13,28 +13,28 @@ const Home = () => {
                 <img className='image' src='/images/sandesh.jpg' alt='Me' />
                 
             </div>
-            <p className='introduction'><h1>Hi, I am Sandesh Gnawali.</h1></p>
-            <h3 className='body-introduction'>Welcome to my portfolio website! I'm a Sophomore at Fisk University, deeply immersed in the world of Computer Science.</h3>
+            <div className='introduction'><h1>Hi, I am Sandesh Gnawali.</h1></div>
+            <div className='body-introduction'><h3>Welcome to my portfolio website! I'm a Sophomore at Fisk University, 
+              deeply immersed in the world of Computer Science.</h3></div>
         </div>
 
-        <div className="projects-samepage">
+        <div className="projects-samepage" id='projects'>
           <Projects/>
         </div>
 
-        <div className="experiences-samepage">
+        <div className="experiences-samepage" id='experience'>
           <Experience/>
         </div>
 
-        <div className="leaderships-samepage">
+        <div className="leaderships-samepage" id='leadership'>
           <Leadership/>
         </div>
         
-        <div className="skills-samepage">
+        <div className="skills-samepage" id='skills'>
           <Skills/>
         </div>
-        <br/>
 
-        <div className="contact-samepage">
+        <div className="contact-samepage" id='contact'>
             <Contact/>
         </div>
       
